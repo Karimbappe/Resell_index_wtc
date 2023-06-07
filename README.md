@@ -7,7 +7,7 @@
   </ul>
 
   <h2>Purpose</h2>
-  <p>The purpose of this exercise was to demonstrate your ability to create a web page with responsive design elements and to incorporate data display using HTML and CSS. It aimed to evaluate your understanding of responsive design principles, HTML structure, CSS styling, and basic JavaScript interactivity.</p>
+  <p>.</p>
 
   <h2>Getting Started</h2>
   <ol>
