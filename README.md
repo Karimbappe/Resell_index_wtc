@@ -11,7 +11,7 @@
 
   <h2>Getting Started</h2>
   <ol>
-    <li>Clone the repository: <code>git clone https://github.com/Karimbappe/resell_index_wtc</code></li>
+    <li>Clone the repository: <code>git clone https://github.com/Karimbappe/Resell_index_wtc</code></li>
     <li>Navigate to the project directory: <code>cd wtc-test-technique</code></li>
     <li>Open the index.html file in your preferred web browser.</li>
   </ol>
