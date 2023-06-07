@@ -7,7 +7,7 @@
   </ul>
 
   <h2>Purpose</h2>
-  <p>.</p>
+  <p>The purpose of this exercise was to assess my ability to build a functional and interactive web page using React. It tested my understanding of React components, state management, event handling, and basic CSS styling.</p>
 
   <h2>Getting Started</h2>
   <ol>
