@@ -1,0 +1,126 @@
+.app__drops-title{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.app__drop-menu{
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 1rem;
+    height: 37px;
+    font-size: 11px;
+}
+
+
+.app__drop-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    flex-direction: row;
+    gap: 4rem;
+    padding: 1rem 5rem;
+    align-items: flex-end;
+}
+
+
+.app__drop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem 7rem;
+}
+
+.image__container{
+    z-index: 1;
+    position: relative;
+    top: 30px;
+}
+
+
+.text__container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: justify;
+    background-color: white;
+    padding: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    position: relative;
+    z-index: 0;
+}
+
+.card__name{
+    text-align: justify;
+    font-weight: 800;
+    font-size: 19.913px;
+    line-height: 24px;
+}
+
+
+.card__brand{
+    text-align: justify;
+    font-weight: 600;
+    font-size: 14.9348px;
+    line-height: 18px;
+}
+
+.card__colored-dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    flex-direction: flex-start;
+    margin: 0 6px;
+}
+
+.resellIndex__container{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    padding: 2px;
+    font-size: 13px;
+    font-weight: 700;
+    width: 160px;
+} 
+
+
+@media screen and (max-width: 1278px) {
+    .app__drop-card{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        justify-content: center;
+    }
+    .text__container{
+        padding-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 668px) {
+    .app__drop-card{
+        grid-template-columns: 2fr;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .app__drop{
+        padding: 1rem;
+    }
+    .app__navbar-logo img{
+        height: 20px;
+    }
+    .app__navbar{
+        padding: 1rem 1rem;
+    }
+    .app__drops-title{
+        font-size: 30px;
+    }
+    .app__drop-menu{
+        width: 120px;
+    }
+    .app__drop-card{
+        gap: 1rem;
+        padding: 1rem 3rem;
+    }
+}

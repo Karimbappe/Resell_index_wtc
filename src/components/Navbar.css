@@ -1,0 +1,123 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+.app__navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 1rem 2rem;
+}
+
+
+.logoWtc{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.app__navbar-logo img{
+    height: 30px;
+}
+
+.app__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    justify-content: flex-end;
+
+}
+
+.app__navbar-links li {
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.app__navbar-links a:hover {
+    color: #00FFB0;
+}
+
+.app__navbar-button{
+    border-radius: 32px;
+    padding: 1rem 3rem;
+    border: transparent;
+    color: black;
+    background-color: #00FFB0;
+    font-weight: 800 !important;
+    font-size: 13px;
+    margin-left: 25px;
+    line-height: 14px;
+}
+
+
+.app__navbar-smallscreen {
+    display: none;
+}
+
+.app__navbar-smallscreen_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    transition: 0.5s ease;
+    flex-direction: column;
+    z-index: 5;
+}
+
+.overlay__close {
+    font-size: 27px;
+    color: #00FFB0;
+    cursor: pointer;
+    position: absolute;
+    top: 20px ;
+    right: 20px ;
+}
+
+.app__navbar-smallscreen-linksToggle{
+    font-size: 27px;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 1150px) {
+    .app__navbar-links{
+        display: none;
+    }
+
+    .app__navbar-smallscreen {
+        display: flex;
+    }
+
+    .app__navbar-button{
+        padding: 1rem 0;
+        margin-left: 0px;
+    }
+}
+
+
+@media screen and (max-width: 2000px) {
+    .app__navbar-logo .logoWtc img{
+        height: 50px;
+    }
+}
+
+
+
+
+
